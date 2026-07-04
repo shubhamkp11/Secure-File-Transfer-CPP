@@ -1,0 +1,16 @@
+# Ignore compiled executables
+*.exe
+*.o
+*.obj
+
+# Ignore server logs and partial transfers
+*.log
+*.part
+
+# Ignore locally generated completed files
+completed_*
+secure_*
+
+# Ignore test media and large assets
+test_assets/
+*.mp4
